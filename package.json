@@ -1,0 +1,14 @@
+{
+  "name": "aiop-vercel",
+  "version": "1.0.0",
+  "description": "AIOP Analyzer - Vercel API Proxy",
+  "main": "api/proxy.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
